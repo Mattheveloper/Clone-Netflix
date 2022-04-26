@@ -1,0 +1,107 @@
+:root{
+	--preto: #141414;
+	--vermelho: #E50914;
+}
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+/*Elementos principais*/
+body {
+	background-color: #141414;
+	color: white;
+	font-family: 'Arial';
+}
+
+header .container {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-between;
+}
+
+header .logo {
+	font-family: 'Arial Black';
+	font-size: 40px;
+	color: #E50914;
+	padding-left: 10px;
+}
+
+header nav a{
+	text-decoration: none;
+	color: #AAA;
+	margin-right: 15px;
+}
+
+header nav a:hover {
+	color: #fff;
+}
+
+/*Conteudo principal*/
+
+.filme-principal {
+	font-size: 16px;
+	background: linear-gradient(rgba(0, 0, 0, .50), rgba(0, 0, 0, .5)100%), url('C:/Users/Matth/Documents/DIO/Desafio DIO/Site clone da Netflix/img/capa-snk.jpg');
+	
+	height: 400px;
+	background-size:cover;
+	
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: flex-start;
+}
+
+.sinopse {
+	margin-top: 10px;
+	margin-bottom: 40px;
+	
+}
+
+.titulo {
+	margin-top: 15%;
+	font-size: 40px;
+	
+	font-family: 'Treubuchet MS', Arial, sans-serif;
+}
+
+.botao {
+	background-color: rgba(0, 0, 0, .50);
+	border: none;
+	color: white;
+	padding: 15px 30px;
+	margin-right: 15px;
+	font-size: 12px;
+	margin-left: 15px;
+
+	cursor: pointer;
+	transition: .9s ease all;
+}
+
+.botao:hover {
+	background-color: white;
+	color: black;
+}
+
+.botao i{
+	margin-right: 8px;
+
+}
+
+.filme-principal .container {
+	width: 60%;
+	margin-left: 15px;
+
+}
+
+.box-filme {
+	height: 100%;
+	width: 100%;
+	display: block;
+}
+
+.carousel-filmes {
+	margin-top: 5px;
+}

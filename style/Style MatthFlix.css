@@ -43,7 +43,7 @@ header nav a:hover {
 
 .filme-principal {
 	font-size: 16px;
-	background: linear-gradient(rgba(0, 0, 0, .50), rgba(0, 0, 0, .5)100%), url('C:/Users/Matth/Documents/DIO/Desafio DIO/Site clone da Netflix/img/capa-snk.jpg');
+	background: linear-gradient(rgba(0, 0, 0, .50), rgba(0, 0, 0, .5) 100%), url('C:/Users/Matth/Documents/DIO/Desafio DIO/Site clone da Netflix/img/capa-snk.jpg');
 	
 	height: 400px;
 	background-size:cover;
